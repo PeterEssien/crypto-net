@@ -254,7 +254,7 @@ include("auth.php");
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" href=" ">
+            <a class="nav-link" href="deposit.html">
               <i class="menu-icon mdi mdi-file-document"></i>
               <span class="menu-title">Deposit</span>
             </a>
@@ -268,7 +268,7 @@ include("auth.php");
           </li>
           
         <li class="nav-item">
-            <a class="nav-link" href=" ">
+            <a class="nav-link" href="https://ayidouble.github.io/Customizable-Crypto-Currency-Dashboard-with-Chart/BTCUSD">
               <i class="menu-icon mdi mdi-file-document"></i>
               <span class="menu-title">TradeView</span>
             </a>
@@ -282,7 +282,7 @@ include("auth.php");
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href=" ">
+            <a class="nav-link" href="logout.php">
               <i class="menu-icon mdi mdi-file-document"></i>
               <span class="menu-title">Logout</span>
             </a>
