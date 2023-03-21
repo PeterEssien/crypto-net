@@ -113,6 +113,7 @@ and password='$password'";
   <script src="../../js/settings.js"></script>
   <script src="../../js/todolist.js"></script>
   <!-- endinject -->
-</body>
 
+<?php } ?>
+</body>
 </html>
