@@ -16,7 +16,7 @@
     <!-- Style -->
     <link rel="stylesheet" href="css1/style.css">
     
-    <title>Register | Gold-dyx</title>
+    <title>Register | CryptoNet</title>
     	  <link href="../img/assets/favicon.ico" rel="icon" type="image/png" />
   </head>
   <body>
@@ -48,8 +48,8 @@ VALUES ('$username', '$password', '$email', '$trn_date')";
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col-md-7">
-            <h3>Register on <strong>Gold-dyx</strong></h3>
-            <p class="mb-4">You need to create an account in order to start investing.</p>
+            <h3>Create a <strong>CryptoNet Account </strong></h3>
+            <p class="mb-4">Create an account</p>
             <form action="" method="post" name="registration">
               <div class="form-group first">
                 <label for="username">Name</label>
@@ -66,16 +66,12 @@ VALUES ('$username', '$password', '$email', '$trn_date')";
                 <input type="password" class="form-control" placeholder="Password" id="password" name="password" required>
               </div>
               
-            <div class="form-group first">
-                <label for="code">Referral Code</label>
-                <input type="text" class="form-control" placeholder="Referral Code" id="code" name="code" >
-              </div>
-
+            
 
               <input name="submit" type="submit" value="Register" class="btn btn-block btn-primary">
 
             </form>
-            <p>Already have an account? <a href='login.php'>Login</a></p>
+           
           </div>
         </div>
       </div>
