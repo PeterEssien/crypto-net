@@ -42,9 +42,10 @@ and password='$password'";
         $row = mysqli_fetch_assoc($result);
 	$rows = mysqli_num_rows($result);
         if($rows==1){
-	    $_SESSION['username'] = $email;
+	    $_SESSION['username'] = = $row['username'];
             $_SESSION['profits'] = $row['profits'];
-            // Redirect user to index.php
+            $_SESSION['trn_date'] = $row['trn_date'];
+
 	    header("Location: dashboard.php");
          }else{
 	echo "<div class='form'>
