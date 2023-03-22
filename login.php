@@ -42,9 +42,9 @@ and password='$password'";
         $row = mysqli_fetch_assoc($result);
 	$rows = mysqli_num_rows($result);
         if($rows==1){
-	    $_SESSION['username'] = = $row['username'];
-            $_SESSION['profits'] = $row['profits'];
-            $_SESSION['trn_date'] = $row['trn_date'];
+	    $_SESSION['username'] = = $rows['username'];
+            $_SESSION['profits'] = $rows['profits'];
+            $_SESSION['trn_date'] = $rows['trn_date'];
 
 	    header("Location: dashboard.php");
          }else{
