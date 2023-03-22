@@ -274,12 +274,7 @@ include("auth.php");
             </a>
           </li>
         
-           <li class="nav-item">
-            <a class="nav-link" href="pages/tables/basic-table.html/basic-table.html">
-              <i class="menu-icon mdi mdi-file-document"></i>
-              <span class="menu-title">Transactions</span>
-            </a>
-          </li>
+          
 
           <li class="nav-item">
             <a class="nav-link" href="logout.php">
