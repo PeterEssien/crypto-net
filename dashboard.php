@@ -261,7 +261,7 @@ include("auth.php");
           </li>
 
            <li class="nav-item">
-            <a class="nav-link" href="pages/tables/basic-table.html/basic_elements.html">
+            <a class="nav-link" href="withdraw.php">
               <i class="menu-icon mdi mdi-file-document"></i>
               <span class="menu-title">Withdrawal</span>
             </a>
