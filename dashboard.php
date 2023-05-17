@@ -353,13 +353,10 @@ include("auth.php");
                               <div class="card-body">
                                 <div class="d-sm-flex justify-content-between align-items-start">
                                   <div>
-                                 
-                                  
                                     <h4 class="card-title card-title-dash">CAPITAL INVESTMENT: $<?php echo $_SESSION['profits']; ?></h4>
-               
                                   </div>
-                                  <div id="performance-line-legend"></div>
-                                </div>
+                                 
+                                  </div>
                                 <div class="d-sm-flex align-items-center mt-1 justify-content-between">
                                   <h4 class="card-title card-title-dash">ACCUMULATED PROFITS:</h4>
                                   <div class="d-sm-flex align-items-center mt-4 justify-content-between"><h2 class="me-2 fw-bold">$<?php echo $_SESSION['profits']; ?></h2><h4 class="me-2">USD</h4><h4 class="text-success">(+1.37%)</h4></div>
