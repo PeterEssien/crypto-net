@@ -353,7 +353,7 @@ include("auth.php");
                               <div class="card-body">
                                 <div class="d-sm-flex justify-content-between align-items-start">
                                   <div>
-                                    <h4 class="card-title card-title-dash">CAPITAL INVESTMENT: $<?php echo $_SESSION['profits']; ?></h4>
+                                    <h4 class="card-title card-title-dash">CAPITAL INVESTMENT: $<?php echo $_SESSION['capital']; ?></h4>
                                   </div>
                                  
                                   </div>
