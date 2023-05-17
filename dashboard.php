@@ -353,12 +353,16 @@ include("auth.php");
                               <div class="card-body">
                                 <div class="d-sm-flex justify-content-between align-items-start">
                                   <div>
-                                   <h4 class="card-title card-title-dash">YOUR PROFITS</h4>
-                                   <p class="card-subtitle card-subtitle-dash">Includes your capital investment and accumulated profits</p>
+                                 
+                                   <p class="card-subtitle card-subtitle-dash">Capital investment and Accumulated profits</p>
+                                    <h4 class="card-title card-title-dash">CAPITAL INVESTMENT:</h4>
+                                    <div class="d-sm-flex align-items-center mt-4 justify-content-between"><h2 class="me-2 fw-bold">$<?php echo $_SESSION['capital']; ?></h2><h4 class="me-2">USD</h4><h4 class="text-success">(+1.37%)</h4></div>
+                                  
                                   </div>
                                   <div id="performance-line-legend"></div>
                                 </div>
                                 <div class="d-sm-flex align-items-center mt-1 justify-content-between">
+                                  <h4 class="card-title card-title-dash">ACCUMULATED PROFITS:</h4>
                                   <div class="d-sm-flex align-items-center mt-4 justify-content-between"><h2 class="me-2 fw-bold">$<?php echo $_SESSION['profits']; ?></h2><h4 class="me-2">USD</h4><h4 class="text-success">(+1.37%)</h4></div>
                                   
                                 </div>
@@ -923,7 +927,7 @@ include("auth.php");
                                           </div>
                                         </div>
                                         <div class="text-muted text-small">
-                                          1h ago
+                                          3h ago
                                         </div>
                                       </div>
                                       <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
@@ -935,7 +939,7 @@ include("auth.php");
                                           </div>
                                         </div>
                                         <div class="text-muted text-small">
-                                          1h ago
+                                          4h ago
                                         </div>
                                       </div>
                                       <div class="wrapper d-flex align-items-center justify-content-between py-2 border-bottom">
@@ -947,7 +951,7 @@ include("auth.php");
                                           </div>
                                         </div>
                                         <div class="text-muted text-small">
-                                          1h ago
+                                          4h ago
                                         </div>
                                       </div>
                                       <div class="wrapper d-flex align-items-center justify-content-between pt-2">
@@ -959,7 +963,7 @@ include("auth.php");
                                           </div>
                                         </div>
                                         <div class="text-muted text-small">
-                                          1h ago
+                                          6h ago
                                         </div>
                                       </div>
                                     </div>
